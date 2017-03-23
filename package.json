@@ -1,0 +1,70 @@
+{
+  "name": "blackduck",
+  "private": true,
+  "version": "1.1.0",
+  "description": "A tool to learn OWASP Top 10 for node.js developers",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.1",
+    "consolidate": "^0.14.1",
+    "csurf": "^1.8.3",
+    "dont-sniff-mimetype": "^1.0.0",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "forever": "^0.15.1",
+    "grunt": "https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz",
+    "helmet": "^2.0.0",
+    "marked": "0.3.5",
+    "mongodb": "^2.1.18",
+    "serve-favicon": "^2.3.0",
+    "swig": "^1.4.2",
+    "underscore": "^1.8.3"
+  },
+  "comments": {
+    "//": "a9 insecure components"
+  },
+  "engines": {
+    "node": "4.4.x",
+    "npm": "2.15.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node node_modules/grunt-cli/bin/grunt test"
+  },
+  "devDependencies": {
+    "async": "^2.0.0-rc.4",
+    "grunt": "https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz",
+    "grunt-cli": "^1.2.0",
+    "grunt-concurrent": "^2.3.0",
+    "grunt-contrib-jshint": "https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-1.1.0.tgz",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-env": "latest",
+    "grunt-if": "https://github.com/binarymist/grunt-if/tarball/master",
+    "grunt-jsbeautifier": "^0.2.12",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-nodemon": "^0.4.2",
+    "grunt-npm-install": "^0.3.0",
+    "grunt-retire": "^0.3.12",
+    "mocha": "^2.4.5",
+    "selenium-webdriver": "^2.53.2",
+    "should": "^8.3.1",
+    "zaproxy": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWASP/NodejsGoat.git"
+  },
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/OWASP/NodejsGoat/issues"
+  },
+  "homepage": "https://github.com/OWASP/NodejsGoat#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "me"
+}
